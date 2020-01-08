@@ -9,14 +9,15 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1.9000
 Collate: 
-    'Convert.R'
     'internals.R'
     'DowngradeSeurat.R'
     'MyDotPlot_withbackground.R'
     'QC_plots.R'
     'RenameClusters.R'
+    'SCEtoSeurat.R'
     'SeuratHelperFunctions.R'
     'SeuratToCDs.R'
+    'SeuratToSCE.R'
     'geneSum.R'
     'myDimPlot.R'
     'to_do.R'

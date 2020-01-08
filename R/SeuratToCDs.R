@@ -15,8 +15,8 @@ SeuratToCDs <- function(sObj){
     gene_annotation = data.frame(gene_short_name = rownames(expression_matrix))
     rownames(gene_annotation) = rownames(expression_matrix)
     
-    cds <- new_cell_data_set(expression_matrix,
-                             cell_metadata = cell_metadata,
-                             gene_metadata = gene_annotation)
+    cds <- monocle3::new_cell_data_set(expression_matrix,
+                                       cell_metadata = cell_metadata,
+                                       gene_metadata = gene_annotation)
     return(cds)
 }
