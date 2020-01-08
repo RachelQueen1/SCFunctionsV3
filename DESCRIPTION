@@ -1,0 +1,22 @@
+Package: SCFunctionsV3
+Title: Single cell helper functions for use with Seurat v 3
+Version: 0.0.0.9000
+Authors@R: person("Rachel", "Queen", email = "rachel.queen@newcastle.ac.uk", role = c("aut", "cre"))
+Description: Create QC plots and add columns to meta data in Seurat objects, convert into otherdata types
+Depends: R (>= 3.5.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1.9000
+Collate: 
+    'Convert.R'
+    'internals.R'
+    'DowngradeSeurat.R'
+    'MyDotPlot_withbackground.R'
+    'QC_plots.R'
+    'RenameClusters.R'
+    'SeuratHelperFunctions.R'
+    'geneSum.R'
+    'myDimPlot.R'
+    'to_do.R'
+    'violinPlot.R'
