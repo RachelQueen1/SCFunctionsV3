@@ -16,6 +16,7 @@ Collate:
     'QC_plots.R'
     'RenameClusters.R'
     'SeuratHelperFunctions.R'
+    'SeuratToCDs.R'
     'geneSum.R'
     'myDimPlot.R'
     'to_do.R'
