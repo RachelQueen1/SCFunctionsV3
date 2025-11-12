@@ -5,8 +5,7 @@ Version: 0.1.0
 Authors@R: c(
     person("Rachel", "Queen", role = c("aut", "cre"), email = "you@example.org")
 )
-Description: A collection of helper functions for single-cell RNA-seq analysis,
-    built around Seurat v3 workflows.
+Description: A collection of helper functions for single-cell RNA-seq analysis built around Seurat v3 workflows.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
