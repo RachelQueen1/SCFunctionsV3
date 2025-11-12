@@ -1,25 +1,31 @@
 Package: SCFunctionsV3
-Title: Single cell helper functions for use with Seurat v 3
-Version: 0.0.0.9000
-Authors@R: person("Rachel", "Queen", email = "rachel.queen@newcastle.ac.uk", role = c("aut", "cre"))
-Description: Create QC plots and add columns to meta data in Seurat objects, convert into otherdata types
-Depends: R (>= 3.5.0)
+Type: Package
+Title: Helper Functions for Single-Cell Analysis with Seurat v3
+Version: 0.1.0
+Authors@R: c(
+    person("Rachel", "Queen", role = c("aut", "cre"), email = "you@example.org")
+)
+Description: A collection of helper functions for single-cell RNA-seq analysis,
+    built around Seurat v3 workflows.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1.9000
-Collate: 
-    'internals.R'
-    'DowngradeSeurat.R'
-    'MyDotPlot_withbackground.R'
-    'QC_plots.R'
-    'RenameClusters.R'
-    'SCEtoSeurat.R'
-    'SeuratHelperFunctions.R'
-    'SeuratToCDs.R'
-    'SeuratToSCE.R'
-    'geneSum.R'
-    'myDimPlot.R'
-    'violinPlot.R'
+Depends:
+    R (>= 4.1)
+Imports:
+    Seurat (>= 3.0),
+    dplyr,
+    ggplot2,
+    Matrix,
+    tibble,
+    tidyr
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
 URL: https://github.com/RachelQueen1/SCFunctionsV3
 BugReports: https://github.com/RachelQueen1/SCFunctionsV3/issues
+
